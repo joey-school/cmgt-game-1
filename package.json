@@ -1,0 +1,25 @@
+{
+  "name": "projectname",
+  "version": "1.0.0",
+  "description": "add description",
+  "main": "add main js file",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "watch": "webpack --watch  --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your git url"
+  },
+  "author": "Your name :)",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+  }
+}
